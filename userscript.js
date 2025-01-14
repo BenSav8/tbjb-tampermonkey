@@ -8,7 +8,7 @@
 // @grant        none
 // ==/UserScript==
 
-
+$store.set('.config/trollbox/_nick', $store.get('.config/trollbox/_nick') || $store.get('.config/trollbox/nick'))
 fetch('https://dell-optiplex-790.github.io/tbjb/tb.js')
 	.then((response) => response.text())
 	.then((tbjb) => {
