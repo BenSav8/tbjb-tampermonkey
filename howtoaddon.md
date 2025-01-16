@@ -3,11 +3,11 @@
 (credit to dell-optiplex-790, the creator of TBJB, for the examples)  
 making TBJB addons is quite simple if you know a bit of js (and/or css and html), there's also "addons.register" that you can use in the following ways:
 
-# addons.register() {#addons-register}
+# addons.register()
 
 you can use this in the following ways:
 
-## messageSender {#messagesender}
+## messageSender
 
 this is used for messages that are sent by you, using the textarea at the bottom, and the changes are reflected server-side  
 (AFAIK) you can only edit data.msg
@@ -17,7 +17,7 @@ addons.register('messageSender', function(data) {
 });
 ```
 
-## messageReciever {#messagereciever}
+## messageReciever
 
 this is used for messages recieved by the client and show up on the trollbox-scroll, the changes are reflected client-side only, including those sent by you  
 you can edit any value, however as previously mentioned they will only show client-side
@@ -28,7 +28,7 @@ addons.register('messageReciever', function(data) {
 });
 ```
 
-## userListener {#userlistener}
+## userListener
 
 this is used for nicknames in the joining / leaving messages sent by ~, channges are reflected client-side only  
 ```
@@ -37,7 +37,7 @@ addons.register('userListener', function(action, data) {
 });
 ```
 
-## userActionMessageSender {#useractionmessagesender}
+## userActionMessageSender
 
 this is used to edit joining / leaving messages sent by ~ further, as you can directly edit the message itself  
 dada is the data used while printing messages sent by ~
