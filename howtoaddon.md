@@ -73,3 +73,12 @@ addons.register('messageSender', function(data) {
   }
 });
 ```
+
+## HTML in messages?
+
+you can use html in messages edited with addons.register(), they won't be escaped unlike actual messages
+```
+addons.register('messageReciever', function(data) {
+  data.msg = '<span style="color: orangered;">' + data.msg + '</span>'
+});
+```
