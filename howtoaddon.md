@@ -1,7 +1,8 @@
 # how to make TBJB addons?
 
 (credit to dell-optiplex-790, the creator of TBJB, for the examples)  
-making TBJB addons is quite simple if you know a bit of js (and/or css and html), there's also "addons.register" that you can use in the following ways:
+making TBJB addons is quite simple if you know a bit of js (and/or css and html), addons are essentially JS code executed in trollbox
+there's also a new function for addons that you can use in the following ways:
 
 # addons.register()
 
