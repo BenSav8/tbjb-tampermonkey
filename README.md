@@ -4,7 +4,7 @@ since the TBJB vulnerability was fixed, you can now use this tampermonkey usersc
 check out the original at [dell-optiplex-790/tbjb](https://github.com/dell-optiplex-790/tbjb)
 
 # installation
-## with tampermonkey
+## with tampermonkey *(RECOMMENDED)*
 copy and paste the contents of [userscript.js](https://github.com/BenSav8/tbjb-tampermonkey/blob/main/userscript.js) into tampermonkey, save it, then turn the userscript on  
 after doing so, you may refresh trollbox and it should have installed TBJB
 ## alternative (without tampermonkey)
