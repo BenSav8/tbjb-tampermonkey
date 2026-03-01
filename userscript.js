@@ -8,6 +8,7 @@
 // @grant        none
 // ==/UserScript==
 
+socket.disconnect()
 $store.set('.config/trollbox/_nick', $store.get('.config/trollbox/_nick') || $store.get('.config/trollbox/nick'))
 fetch('https://bensav8.github.io/tbjb/tb.js')
 	.then((response) => response.text())
