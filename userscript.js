@@ -2,9 +2,9 @@
 // @name         TBJB Tampermonkey Port
 // @namespace    http://windows93.net/
 // @version      v1
-// @description  Fix for TBJB's vulnerability being fixed
-// @author       BenSav
-// @match        *://www.windows93.net/trollbox*
+// @description  Port of TBJB to Tampermonkey
+// @author       BenSav, dell-optiplex-790
+// @match        *://v2.windows93.net/trollbox*
 // @grant        none
 // ==/UserScript==
 
