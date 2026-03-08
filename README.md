@@ -1,7 +1,8 @@
 # TBJB Tampermonkey Port
 tampermonkey port for TBJB made by [@dell-optiplex-790](https://github.com/dell-optiplex-790)  
-since the TBJB vulnerability was fixed, you can now use this tampermonkey userscript to be able to use TBJB  
+since the TBJB vulnerability was fixed, you can now use this tampermonkey userscript to be able to use TBJB 
 check out the original at [dell-optiplex-790/tbjb](https://github.com/dell-optiplex-790/tbjb)
+**make sure you're using the trollbox v2/2.1 client and windows93 v2 as this won't work for v3/2.3**
 
 # installation
 ## with tampermonkey *(RECOMMENDED)*
